@@ -9,6 +9,7 @@ export const IsOnline = styled.span`
             switch(props.isOnline){
                 case(true): return "green";
                 case(false): return "red";
+                default: return "black"
             }
             
     }};
