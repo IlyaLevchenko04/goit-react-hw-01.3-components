@@ -1,4 +1,3 @@
-import user from './user.json';
 import {
   InfoContainer,
   Avatar,
@@ -9,7 +8,6 @@ import {
 } from './Profile.module';
 import PropTypes from 'prop-types';
 
-console.log(user);
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <ContainerForProfile>
